@@ -22,7 +22,7 @@ public class TheStack : MonoBehaviour
     private const float ERROR_MARGIN = 0.1f;
     // If combo is reached a gain in tile size occurs.
     private const float STACK_BOUNDS_GAIN = 0.25f;
-    // Combo starts when 5 tiles are stacked perfectly the combo gain (+0.25f) occurs.
+    // Combo starts when 3 tiles are stacked perfectly the combo gain (+0.25f) occurs.
     private const int COMBO_START_GAIN = 3;
 
     private GameObject[] theStack;
