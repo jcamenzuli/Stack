@@ -246,8 +246,9 @@ public class TheStack : MonoBehaviour
         theStack [stackIndex].AddComponent<Rigidbody> ();
     }
 
-    public void OnButtonClick(string sceneName)
+     public void OnButtonClick(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
     }
 }
+
